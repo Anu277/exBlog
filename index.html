@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100;1,300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;400;900&display=swap" rel="stylesheet">
+    <!-- <link rel=”stylesheet” href=”https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css”rel=”nofollow” integrity=”sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm” crossorigin=”anonymous”> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/a53285079f.js" crossorigin="anonymous"></script>
+    
+    <title>Bold Ink Space - Home Page</title>
+</head>
+<body>
+    <div class="i-anim">
+        <input type="checkbox" id="click">
+        <label for="click" class="share-btn">
+          <span class="fas fa-share-alt s"></span>
+          <a style="color:#00acee;" href="#"><span class="fab fa-twitter a"></span></a>
+          <a style="color: #d62976;" href="#"><span class="fab fa-instagram b"></span></a>
+          <a style="color: #3b5998;" href="#"><span class="fab fa-facebook c"></span></a>          
+          <a style="color: #1d1c1c;" href="#"><span class="fab fa-medium f"></span></a>
+          <a style="color: #075e21;" href="#"><span class="fab fa-whatsapp d"></span></a>
+          <a style="color: #c8232c;" href="#"><span class="fab fa-pinterest e"></span></a>
+          <a style="color: #5c5a5a;" href="#"><span class="fas fa-copy g"></span></a>
+        </label>
+      </div>
+    <div class="loading-screen">
+        <div class="loader"></div>
+      </div>
+      
+      <!-- The rest of your page content goes here -->
+    <script>
+        window.addEventListener("load", function () {
+            const loader = document.querySelector(".loading-screen");
+            loader.style.opacity = 0;
+            setTimeout(function () {
+              loader.style.display = "none";
+            }, 500);
+          });
+          
+    </script>      
+    <header>
+        <nav>
+            <div class="leftnav">
+                <img style="height: 70px;" src="bold ink space png.png" alt="logo">
+            <!-- </div>
+            <div class="leftnav"> -->
+                <li>
+                    <ul></i>Home</ul> <span>|</span>
+                    <ul> Categories</ul><span>|</span>
+                    <ul>Search</ul><span>|</span>
+                    <ul>About</ul><span>|</span>
+                    <ul>Contact</ul>
+                </li>
+            </div>
+        </nav>
+    
+
+        <div class="intro-slides">
+            <div id="demo" class="carousel slide" data-ride="carousel">
+
+                <ul class="carousel-indicators">
+                    <li data-target="#demo" data-slide-to="0" class="active"></li>
+                    <li data-target="#demo" data-slide-to="1"></li>
+                    <li data-target="#demo" data-slide-to="2"></li>
+                    <li data-target="#demo" data-slide-to="3"></li>
+                    <li data-target="#demo" data-slide-to="4"></li>
+                  </ul>
+                <!-- The slideshow -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+
+
+                        <div class="slides slide1">
+                        <section class="slide-content">
+                            <h2>
+                                Why <b>Feather Pen</b> Is the Best Choice for Article Reading?
+                            </h2>
+                            <p>Are you looking for a article website that's easy <br> to use and  has lots of helpful features? <br> Look no further than this site. 
+                                <br> In this blog, you'll explore differenet content based articles.</p>
+                        </section>
+                        <section class="slide-image">
+                            <img src="/intro slide 1.png" width="302px" alt="">
+                        </section>
+                        </div>
+                    </div>
+
+
+                    <div class="carousel-item">
+                        <div class="slides slide2">
+                        <section class="slide-content">
+                            <h2>
+                                Why you need to read our <b>Feather Pen</b> article blog?
+                            </h2>
+                            <p>Are you tired of endlessly searching for quality information on the topics that interest you? Look no further than my article blog. 
+                                I may be a single person running this site, but I'm dedicated to providing the best and most reliable information out there for beginners and experts alike. 
+                                Read on to discover how my blog can take your knowledge of your desired topics to the next level.</p>
+                        </section>
+                        <section class="slide-image">
+                            <img src="/intro slide 2.png" width="350px" alt="">
+                        </section>
+                        </div>
+                    </div>
+
+
+                    <div class="carousel-item">
+                        <div class="slides slide3">
+                            <section class="slide-content">
+                                <h2>
+                                    <b>Expertise</b>
+                                </h2>
+                                <p>Our My site is run solely by me, but I am an experienced writer and industry expert who is passionate about sharing my knowledge with you. 
+                                    From technology to health, business to education, I have the expertise you need to stay informed and make better decisions. 
+                                    I'm committed to delivering accurate, up-to-date information that you can trust, backed by extensive research and years of experience.</p>
+                            </section>
+                            <section class="slide-image">
+                                <img src="/intro slide 3.png" width="260px" alt="">
+                            </section>
+                        </div>
+                    </div>
+
+
+                    <div class="carousel-item">
+                        <div class="slides slide4">
+                            <section class="slide-content">
+                                <h2>
+                                    <b>Relevance</b>
+                                </h2>
+                                <p>I'm dedicated to providing you with the latest news and insights in your industry, so you can stay ahead of the curve. 
+                                    I'm committed to making my content accessible and relevant to everyone, no matter their level of expertise or background. 
+                                    My goal is to provide you with the information you need to make informed decisions, whether you're at work, at home, or on the go.
+                                </p>
+                            </section>
+                            <section class="slide-image">
+                                <img src="/intro slide 4.png" width="350px" alt="">
+                            </section>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="slides slide5">
+                            <section class="slide-content">
+                                <h2>
+                                    <b>Timeliness</b>
+                                </h2>
+                                <p>My site is dedicated to staying on top of the good news and trends in my industry, so you can be sure you're getting the most up-to-date information available. I understand that the world moves fast, which is why I'm committed to delivering timely, relevant content that reflects the latest developments and insights. 
+                                    I strive to be a trusted source of news and analysis, delivering my content in real-time so you can stay informed no matter where you are</p>
+                            </section>
+                            <section class="slide-image">
+                                <img src="/intro slide 5.png" width="350px"  style="background-blend-mode:multiply ;" alt="">
+                            </section>
+                        </div>
+                    </div>
+
+                    
+                </div>
+            </div>
+        </div>
+
+        <script>
+            $('.carousel').carousel({
+                interval: 3000
+              })
+        </script>
+
+        <div class="container">
+           
+          </div>
+    </header>
+
+    <main>
+        
+        <div class="article-space">
+            <aside class="left-aside"> </aside>
+            <div class="main-article">
+                <div class="article-intro">
+                    <time class="breadcrumb-date" datetime="2023-02-13" itemprop="datePublished">
+                        February 13, 2023</time>
+                    <h1>Get the Latest Stories and Stay Ahead of the Curve with <b>Feather Pen</b></h1>
+                    <p>Welcome to <b>Feather Pen</b>, your premier source for the latest news and developments across a diverse range of subjects. From global events and politics to sports, health and wellness, and technology, I offer comprehensive coverage and insightful analysis.
+
+                        </p>
+                        <p>As an experienced writer and reporter, I am dedicated to providing you with the most relevant and stimulating stories from around the world, presented in a clear, concise, and engaging style. Whether you are a news enthusiast, a casual reader, or someone who seeks to stay informed, you will discover an abundance of captivating material that will keep you abreast of current events and trends.
+                        
+                        So take a moment to immerse yourself in the world of <b>Feather Pen</b>. I am confident you will discover an engaging and stimulating experience, and I look forward to continuing to provide you with top-quality news coverage and analysis.
+                    </p>
+                </div>
+                <div class="article-cat">
+                    <img src="/World news.jpg" alt="">
+                    <div class="cat-caption">
+                        <h1>World News / International News</h1>
+                        <p> - Global events and developments</p>
+                    </div>
+                    
+                </div>
+                <div class="article-cat">
+                    <img src="/National news.avif" alt="">
+                    <div class="cat-caption">
+                    <h1>National News</h1>
+                    <p> - News within the country.</p></div>
+                </div>
+                <div class="article-cat">
+                    <img src="/politics.jpg" alt="">
+                    <div class="cat-caption">
+                    <h1>Politics</h1>
+                    <p>- Government and political affairs.</p></div>
+                </div>
+                <div class="article-cat">
+                    <img src="/business.jpg" alt="">
+                    <div class="cat-caption">
+                    <h1>Business / Finance </h1>
+                    <p>- Economic news and trends.</p></div>
+                </div>
+                <div class="article-cat">
+                    <img src="/tech.jpg" alt="">
+                    <div class="cat-caption">
+                    <h1>Technology / Science / Innovation</h1>
+                    <p>Latest developments in technology.</p></div>
+                </div>
+                <div class="article-cat">
+                    <img src="/entertainment.jpg" alt="">
+                    <div class="cat-caption">
+                    <h1>Entertainment / Arts / Culture</h1>
+                    <p> - Pop culture and arts news.</p></div>
+                </div>
+                <div class="article-cat">
+                    <img src="/sports.jpg" alt="">
+                    <div class="cat-caption">
+                    <h1>Sports</h1>
+                    <p>Athletic competitions and stories.</p></div>
+                </div>
+                <div class="article-cat">
+                    <img src="/health.jpg" alt="">
+                    <div class="cat-caption">
+                    <h1>Health & Wellness</h1>
+                    <p>- Medical and wellness news.</p></div>
+                </div>
+                <div class="article-cat">
+                    <img src="/education.jpg" alt="">
+                    <div class="cat-caption">
+                    <h1>Education</h1>
+                    <p>- Education news and policy.</p></div>
+                </div>
+                <div class="article-cat">
+                    <img src="/justice.jpg" alt="">
+                    <div class="cat-caption">
+                    <h1>Crime / Justice</h1>
+                    <p>- Law enforcement and legal issues.</p></div>
+                </div>
+                <div class="article-cat">
+                    <img src="/eco.jpg" alt="">
+                    <div class="cat-caption">
+                    <h1>Environment</h1>
+                    <p>Ecology and conservation stories.</p></div>
+                </div>
+                <div class="article-cat">
+                    <img src="/travel.jpg" alt="">
+                    <div class="cat-caption">
+                    <h1>Travel</h1>
+                    <p>Destinations and tourism news.</p></div>
+                </div>
+                <div class="article-cat">
+                    <img src="/opinion.jpg" alt="">
+                    <div class="cat-caption">
+                    <h1>Opinion</h1>
+                    <p>- Personal perspectives on current events.</p></div>
+                </div>
+                <div class="article-cat">
+                    <img src="/lifestyle.jpg" alt="">
+                    <div class="cat-caption">
+                    <h1>Lifestyle</h1>
+                    <p>- Fashion and lifestyle trends.</p></div>
+                </div>
+                <div class="article-cat">
+                    <img src="/food.jpg" alt="">
+                    <div class="cat-caption">
+                    <h1>Food</h1>
+                    <p>- Culinary news and trends.</p></div>
+                </div>
+            </div>
+            <aside class="right-aside"></aside>    
+        </div>
+    </main>
+    <footer>
+        
+    </footer>
+</body>
+</html>
